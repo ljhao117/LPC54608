@@ -1,0 +1,7 @@
+{
+    "C_Cpp.dimInactiveRegions": false,
+    "files.associations": {
+        "freertos.h": "c",
+        "task.h": "c"
+    }
+}

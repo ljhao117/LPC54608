@@ -1,0 +1,6 @@
+fsl_power.h:108:20:POWER_DisablePD	16	static
+clock_config.c:54:6:BOARD_InitBootClocks	8	static
+clock_config.c:82:6:BOARD_BootClockFRO12M	8	static
+clock_config.c:128:6:BOARD_BootClockFROHF48M	8	static
+clock_config.c:177:6:BOARD_BootClockFROHF96M	8	static
+clock_config.c:235:6:BOARD_BootClockPLL180M	40	static

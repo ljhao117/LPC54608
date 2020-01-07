@@ -1,0 +1,13 @@
+core_cm4.h:1807:22:__NVIC_SetPriority	16	static
+core_cm4.h:2014:26:SysTick_Config	16	static
+fsl_gpio.h:153:20:GPIO_PinWrite	24	static
+fsl_gpio.h:210:20:GPIO_PortToggle	24	static
+freertos_event.c:86:5:main	8	static
+freertos_event.c:112:6:SysTick_DelayTicks	16	static
+freertos_event.c:120:6:SysTick_Handler	4	static
+freertos_event.c:128:6:TaskCreate	16	static
+freertos_event.c:179:13:Task1	16	static
+freertos_event.c:219:6:gint0_callback	8	static
+freertos_event.c:225:6:PinInt0_Callback	16	static
+freertos_event.c:231:6:GPIOInit	16	static
+freertos_event.c:249:6:InterruptInit	8	static

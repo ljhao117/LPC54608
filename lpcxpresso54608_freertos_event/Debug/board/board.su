@@ -1,0 +1,3 @@
+fsl_clock.h:922:26:CLOCK_GetEmcClkFreq	16	static
+board.c:48:10:BOARD_InitDebugConsole	4	static
+board.c:65:6:BOARD_InitSDRAM	80	static
