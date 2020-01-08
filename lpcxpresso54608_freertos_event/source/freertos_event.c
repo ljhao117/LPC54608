@@ -37,7 +37,6 @@
  * Definitions
  ******************************************************************************/
 #define Task_PRIORITY 0
-#define portTICK_RATE_MS portTICK_PERIOD_MS
 
 /*LED*/
 #define LED1_PORT BOARD_LED1_GPIO_PORT
@@ -67,7 +66,6 @@
  ******************************************************************************/
 static void USBTask(void *pvParameters);
 void TaskCreate(void);
-void vApplicationIdleBook(void);
 void gint0_callback(void);
 void PinInt0_Callback(pint_pin_int_t pin, uint32_t pmatch_status);
 void SysTick_DelayTicks(uint32_t n);
@@ -96,11 +94,7 @@ USB_INTERFACE_DESCRIPTOR *find_IntfDesc(const uint8_t *pDesc, uint32_t intfClass
 /*******************************************************************************
  * Globals Variables
  ******************************************************************************/
-unsigned long ulIdleCycleCount = 0UL;
-TaskHandle_t xTask2Handle;
-QueueHandle_t xQueue;
 volatile uint32_t g_systickCounter;
-uint32_t port_state = 0;
 static USBD_HANDLE_T g_hUsb;
 ALIGN(2048)
 uint8_t g_memUsbStack[USB_STACK_MEM_SIZE];
@@ -187,7 +181,6 @@ void sendComplete(void)
 
 /**
  *  @brief Handle interrupt from USB0
- * 
  *  @return none
  */
 void USB0_IRQHandler(void)
