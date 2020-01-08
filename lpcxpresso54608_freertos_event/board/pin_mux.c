@@ -136,6 +136,24 @@ void BOARD_InitPins(void)
                                         IOCON_PIO_OPENDRAIN_DI);
     /* PORT0 PIN6 (coords: A5) is configured as PIO0_6 */
     IOCON_PinMuxSet(IOCON, 0U, 6U, port0_pin6_config);
+
+    /* USB0_VBUS */
+    const uint32_t port0_pin22_config = (/* Pin is configured as USB0_VBUS */
+                                         IOCON_PIO_FUNC7 |
+                                         /* No addition pin function */
+                                         IOCON_PIO_MODE_INACT |
+                                         /* Input function is not inverted */
+                                         IOCON_PIO_INV_DI |
+                                         /* Enables digital function */
+                                         IOCON_PIO_DIGITAL_EN |
+                                         /* Input filter disabled */
+                                         IOCON_PIO_INPFILT_OFF |
+                                         /* Standard mode, output slew rate control is enabled */
+                                         IOCON_PIO_SLEW_STANDARD |
+                                         /* Open drain is disabled */
+                                         IOCON_PIO_OPENDRAIN_DI);
+    /* PORT0 PIN22 (coords: B12) is configured as USB0_VBUS */
+    IOCON_PinMuxSet(IOCON, 0U, 22U, port0_pin22_config);
 }
 /***********************************************************************************************************************
  * EOF

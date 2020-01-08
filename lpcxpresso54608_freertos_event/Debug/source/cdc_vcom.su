@@ -1,0 +1,10 @@
+core_cm4.h:1679:22:__NVIC_EnableIRQ	16	static
+core_cm4.h:1715:22:__NVIC_DisableIRQ	16	static
+cdc_vcom.c:59:20:VCOM_bulk_in_hdlr	32	static
+cdc_vcom.c:72:20:VCOM_bulk_out_hdlr	32	static
+cdc_vcom.c:92:20:VCOM_SetLineCode	24	static
+cdc_vcom.c:107:13:vcom_init	112	static
+cdc_vcom.c:148:10:vcom_bread	24	static
+cdc_vcom.c:182:13:vcom_read_req	32	static
+cdc_vcom.c:203:10:vcom_read_cnt	16	static
+cdc_vcom.c:218:10:vcom_write	32	static

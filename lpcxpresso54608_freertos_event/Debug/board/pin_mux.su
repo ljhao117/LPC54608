@@ -1,3 +1,3 @@
 fsl_clock.h:699:20:CLOCK_EnableClock	24	static
 fsl_iocon.h:255:22:IOCON_PinMuxSet	24	static
-pin_mux.c:50:6:BOARD_InitPins	32	static
+pin_mux.c:50:6:BOARD_InitPins	40	static

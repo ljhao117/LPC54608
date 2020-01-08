@@ -2,6 +2,14 @@
     "C_Cpp.dimInactiveRegions": false,
     "files.associations": {
         "freertos.h": "c",
-        "task.h": "c"
+        "task.h": "c",
+        "usbd_core.h": "c",
+        "fsl_device_registers.h": "c",
+        "board.h": "c",
+        "app_usbd_cfg.h": "c",
+        "usbd_rom_api.h": "c",
+        "cdc_vcom.h": "c",
+        "lpc_types.h": "c",
+        "error.h": "c"
     }
 }
