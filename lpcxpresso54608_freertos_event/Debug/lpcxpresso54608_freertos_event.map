@@ -479,13 +479,6 @@ Discarded input sections
  .text          0x00000000        0x0 ./source/freertos_event.o
  .data          0x00000000        0x0 ./source/freertos_event.o
  .bss           0x00000000        0x0 ./source/freertos_event.o
- .bss.ulIdleCycleCount
-                0x00000000        0x4 ./source/freertos_event.o
- .bss.xTask2Handle
-                0x00000000        0x4 ./source/freertos_event.o
- .bss.xQueue    0x00000000        0x4 ./source/freertos_event.o
- .bss.port_state
-                0x00000000        0x4 ./source/freertos_event.o
  .text.SysTick_DelayTicks
                 0x00000000       0x28 ./source/freertos_event.o
  .debug_macro   0x00000000      0xad8 ./source/freertos_event.o
@@ -4216,59 +4209,59 @@ END GROUP
                 0x00006fc4                _image_size = (_image_end - _image_start)
 OUTPUT(lpcxpresso54608_freertos_event.axf elf32-littlearm)
 
-.debug_info     0x00000000    0x20a92
+.debug_info     0x00000000    0x20a1a
  .debug_info    0x00000000      0x243 ./utilities/fsl_assert.o
  .debug_info    0x00000243      0x6c6 ./startup/startup_lpc54608.o
  .debug_info    0x00000909     0x1816 ./source/cdc_desc.o
  .debug_info    0x0000211f     0x2313 ./source/cdc_vcom.o
- .debug_info    0x00004432     0x4760 ./source/freertos_event.o
- .debug_info    0x00008b92       0x3c ./source/semihost_hardfault.o
- .debug_info    0x00008bce     0x3102 ./drivers/fsl_clock.o
- .debug_info    0x0000bcd0     0x10f3 ./drivers/fsl_common.o
- .debug_info    0x0000cdc3     0x19dd ./drivers/fsl_flexcomm.o
- .debug_info    0x0000e7a0     0x1c39 ./drivers/fsl_gint.o
- .debug_info    0x000103d9     0x161e ./drivers/fsl_gpio.o
- .debug_info    0x000119f7     0x1520 ./drivers/fsl_inputmux.o
- .debug_info    0x00012f17     0x2104 ./drivers/fsl_pint.o
- .debug_info    0x0001501b      0xde5 ./drivers/fsl_reset.o
- .debug_info    0x00015e00      0xf2c ./device/system_LPC54608.o
- .debug_info    0x00016d2c     0x141d ./board/board.o
- .debug_info    0x00018149     0x10e6 ./board/clock_config.o
- .debug_info    0x0001922f      0xf65 ./board/pin_mux.o
- .debug_info    0x0001a194      0x424 ./amazon-freertos/freertos_kernel/portable/MemMang/heap_4.o
- .debug_info    0x0001a5b8      0x52f ./amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.o
- .debug_info    0x0001aae7      0x302 ./amazon-freertos/freertos_kernel/list.o
- .debug_info    0x0001ade9     0x1863 ./amazon-freertos/freertos_kernel/queue.o
- .debug_info    0x0001c64c     0x21b7 ./amazon-freertos/freertos_kernel/tasks.o
- .debug_info    0x0001e803      0xefa ./amazon-freertos/freertos_kernel/timers.o
- .debug_info    0x0001f6fd     0x1395 D:\Gitspace\LPC54608\lpcxpresso54608_freertos_event\libs\libpower_hardabi.a(fsl_power_lib.o)
+ .debug_info    0x00004432     0x46e8 ./source/freertos_event.o
+ .debug_info    0x00008b1a       0x3c ./source/semihost_hardfault.o
+ .debug_info    0x00008b56     0x3102 ./drivers/fsl_clock.o
+ .debug_info    0x0000bc58     0x10f3 ./drivers/fsl_common.o
+ .debug_info    0x0000cd4b     0x19dd ./drivers/fsl_flexcomm.o
+ .debug_info    0x0000e728     0x1c39 ./drivers/fsl_gint.o
+ .debug_info    0x00010361     0x161e ./drivers/fsl_gpio.o
+ .debug_info    0x0001197f     0x1520 ./drivers/fsl_inputmux.o
+ .debug_info    0x00012e9f     0x2104 ./drivers/fsl_pint.o
+ .debug_info    0x00014fa3      0xde5 ./drivers/fsl_reset.o
+ .debug_info    0x00015d88      0xf2c ./device/system_LPC54608.o
+ .debug_info    0x00016cb4     0x141d ./board/board.o
+ .debug_info    0x000180d1     0x10e6 ./board/clock_config.o
+ .debug_info    0x000191b7      0xf65 ./board/pin_mux.o
+ .debug_info    0x0001a11c      0x424 ./amazon-freertos/freertos_kernel/portable/MemMang/heap_4.o
+ .debug_info    0x0001a540      0x52f ./amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.o
+ .debug_info    0x0001aa6f      0x302 ./amazon-freertos/freertos_kernel/list.o
+ .debug_info    0x0001ad71     0x1863 ./amazon-freertos/freertos_kernel/queue.o
+ .debug_info    0x0001c5d4     0x21b7 ./amazon-freertos/freertos_kernel/tasks.o
+ .debug_info    0x0001e78b      0xefa ./amazon-freertos/freertos_kernel/timers.o
+ .debug_info    0x0001f685     0x1395 D:\Gitspace\LPC54608\lpcxpresso54608_freertos_event\libs\libpower_hardabi.a(fsl_power_lib.o)
 
-.debug_abbrev   0x00000000     0x39d7
+.debug_abbrev   0x00000000     0x39b2
  .debug_abbrev  0x00000000       0xe9 ./utilities/fsl_assert.o
  .debug_abbrev  0x000000e9      0x16d ./startup/startup_lpc54608.o
  .debug_abbrev  0x00000256      0x1a4 ./source/cdc_desc.o
  .debug_abbrev  0x000003fa      0x311 ./source/cdc_vcom.o
- .debug_abbrev  0x0000070b      0x4a9 ./source/freertos_event.o
- .debug_abbrev  0x00000bb4       0x31 ./source/semihost_hardfault.o
- .debug_abbrev  0x00000be5      0x38e ./drivers/fsl_clock.o
- .debug_abbrev  0x00000f73      0x28b ./drivers/fsl_common.o
- .debug_abbrev  0x000011fe      0x30f ./drivers/fsl_flexcomm.o
- .debug_abbrev  0x0000150d      0x2c1 ./drivers/fsl_gint.o
- .debug_abbrev  0x000017ce      0x246 ./drivers/fsl_gpio.o
- .debug_abbrev  0x00001a14      0x20b ./drivers/fsl_inputmux.o
- .debug_abbrev  0x00001c1f      0x30e ./drivers/fsl_pint.o
- .debug_abbrev  0x00001f2d      0x188 ./drivers/fsl_reset.o
- .debug_abbrev  0x000020b5      0x1fc ./device/system_LPC54608.o
- .debug_abbrev  0x000022b1      0x20e ./board/board.o
- .debug_abbrev  0x000024bf      0x1c9 ./board/clock_config.o
- .debug_abbrev  0x00002688      0x1f3 ./board/pin_mux.o
- .debug_abbrev  0x0000287b      0x212 ./amazon-freertos/freertos_kernel/portable/MemMang/heap_4.o
- .debug_abbrev  0x00002a8d      0x246 ./amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.o
- .debug_abbrev  0x00002cd3      0x12d ./amazon-freertos/freertos_kernel/list.o
- .debug_abbrev  0x00002e00      0x2d9 ./amazon-freertos/freertos_kernel/queue.o
- .debug_abbrev  0x000030d9      0x32b ./amazon-freertos/freertos_kernel/tasks.o
- .debug_abbrev  0x00003404      0x28f ./amazon-freertos/freertos_kernel/timers.o
- .debug_abbrev  0x00003693      0x344 D:\Gitspace\LPC54608\lpcxpresso54608_freertos_event\libs\libpower_hardabi.a(fsl_power_lib.o)
+ .debug_abbrev  0x0000070b      0x484 ./source/freertos_event.o
+ .debug_abbrev  0x00000b8f       0x31 ./source/semihost_hardfault.o
+ .debug_abbrev  0x00000bc0      0x38e ./drivers/fsl_clock.o
+ .debug_abbrev  0x00000f4e      0x28b ./drivers/fsl_common.o
+ .debug_abbrev  0x000011d9      0x30f ./drivers/fsl_flexcomm.o
+ .debug_abbrev  0x000014e8      0x2c1 ./drivers/fsl_gint.o
+ .debug_abbrev  0x000017a9      0x246 ./drivers/fsl_gpio.o
+ .debug_abbrev  0x000019ef      0x20b ./drivers/fsl_inputmux.o
+ .debug_abbrev  0x00001bfa      0x30e ./drivers/fsl_pint.o
+ .debug_abbrev  0x00001f08      0x188 ./drivers/fsl_reset.o
+ .debug_abbrev  0x00002090      0x1fc ./device/system_LPC54608.o
+ .debug_abbrev  0x0000228c      0x20e ./board/board.o
+ .debug_abbrev  0x0000249a      0x1c9 ./board/clock_config.o
+ .debug_abbrev  0x00002663      0x1f3 ./board/pin_mux.o
+ .debug_abbrev  0x00002856      0x212 ./amazon-freertos/freertos_kernel/portable/MemMang/heap_4.o
+ .debug_abbrev  0x00002a68      0x246 ./amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.o
+ .debug_abbrev  0x00002cae      0x12d ./amazon-freertos/freertos_kernel/list.o
+ .debug_abbrev  0x00002ddb      0x2d9 ./amazon-freertos/freertos_kernel/queue.o
+ .debug_abbrev  0x000030b4      0x32b ./amazon-freertos/freertos_kernel/tasks.o
+ .debug_abbrev  0x000033df      0x28f ./amazon-freertos/freertos_kernel/timers.o
+ .debug_abbrev  0x0000366e      0x344 D:\Gitspace\LPC54608\lpcxpresso54608_freertos_event\libs\libpower_hardabi.a(fsl_power_lib.o)
 
 .debug_aranges  0x00000000     0x1090
  .debug_aranges
@@ -4348,7 +4341,7 @@ OUTPUT(lpcxpresso54608_freertos_event.axf elf32-littlearm)
  .debug_ranges  0x00000dd0       0xd0 ./amazon-freertos/freertos_kernel/timers.o
  .debug_ranges  0x00000ea0       0x88 D:\Gitspace\LPC54608\lpcxpresso54608_freertos_event\libs\libpower_hardabi.a(fsl_power_lib.o)
 
-.debug_macro    0x00000000    0x14d70
+.debug_macro    0x00000000    0x14d6a
  .debug_macro   0x00000000      0x1cc ./utilities/fsl_assert.o
  .debug_macro   0x000001cc      0xad8 ./utilities/fsl_assert.o
  .debug_macro   0x00000ca4       0x10 ./utilities/fsl_assert.o
@@ -4403,47 +4396,47 @@ OUTPUT(lpcxpresso54608_freertos_event.axf elf32-littlearm)
  .debug_macro   0x0001279c      0x25f ./source/cdc_vcom.o
  .debug_macro   0x000129fb      0x2b2 ./source/cdc_vcom.o
  .debug_macro   0x00012cad       0x34 ./source/cdc_vcom.o
- .debug_macro   0x00012ce1      0x3a9 ./source/freertos_event.o
- .debug_macro   0x0001308a       0x16 ./source/freertos_event.o
- .debug_macro   0x000130a0       0x97 ./source/freertos_event.o
- .debug_macro   0x00013137       0x1c ./source/freertos_event.o
- .debug_macro   0x00013153       0x2e ./source/freertos_event.o
- .debug_macro   0x00013181       0x10 ./source/freertos_event.o
- .debug_macro   0x00013191       0x34 ./source/freertos_event.o
- .debug_macro   0x000131c5       0x76 ./source/freertos_event.o
- .debug_macro   0x0001323b       0x22 ./source/freertos_event.o
- .debug_macro   0x0001325d       0x11 ./source/freertos_event.o
- .debug_macro   0x0001326e       0xb1 ./source/freertos_event.o
- .debug_macro   0x0001331f       0x61 ./source/freertos_event.o
- .debug_macro   0x00013380       0xca ./source/freertos_event.o
- .debug_macro   0x0001344a       0x16 ./source/freertos_event.o
- .debug_macro   0x00013460       0x46 ./source/freertos_event.o
- .debug_macro   0x000134a6       0x11 ./source/semihost_hardfault.o
- .debug_macro   0x000134b7      0x22f ./drivers/fsl_clock.o
- .debug_macro   0x000136e6      0x124 ./drivers/fsl_common.o
- .debug_macro   0x0001380a      0x127 ./drivers/fsl_flexcomm.o
- .debug_macro   0x00013931       0x10 ./drivers/fsl_flexcomm.o
- .debug_macro   0x00013941      0x12e ./drivers/fsl_gint.o
- .debug_macro   0x00013a6f      0x12e ./drivers/fsl_gpio.o
- .debug_macro   0x00013b9d      0x131 ./drivers/fsl_inputmux.o
- .debug_macro   0x00013cce      0x12d ./drivers/fsl_pint.o
- .debug_macro   0x00013dfb       0x70 ./drivers/fsl_pint.o
- .debug_macro   0x00013e6b      0x11e ./drivers/fsl_reset.o
- .debug_macro   0x00013f89       0xdf ./device/system_LPC54608.o
- .debug_macro   0x00014068      0x250 ./board/board.o
- .debug_macro   0x000142b8       0x58 ./board/board.o
- .debug_macro   0x00014310      0x13e ./board/clock_config.o
- .debug_macro   0x0001444e       0x1c ./board/clock_config.o
- .debug_macro   0x0001446a      0x12a ./board/pin_mux.o
- .debug_macro   0x00014594       0xe2 ./board/pin_mux.o
- .debug_macro   0x00014676       0xdf ./amazon-freertos/freertos_kernel/portable/MemMang/heap_4.o
- .debug_macro   0x00014755      0x179 ./amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.o
- .debug_macro   0x000148ce       0xb8 ./amazon-freertos/freertos_kernel/list.o
- .debug_macro   0x00014986      0x125 ./amazon-freertos/freertos_kernel/queue.o
- .debug_macro   0x00014aab      0x192 ./amazon-freertos/freertos_kernel/tasks.o
- .debug_macro   0x00014c3d       0x10 ./amazon-freertos/freertos_kernel/tasks.o
- .debug_macro   0x00014c4d       0x16 ./amazon-freertos/freertos_kernel/tasks.o
- .debug_macro   0x00014c63      0x10d ./amazon-freertos/freertos_kernel/timers.o
+ .debug_macro   0x00012ce1      0x3a3 ./source/freertos_event.o
+ .debug_macro   0x00013084       0x16 ./source/freertos_event.o
+ .debug_macro   0x0001309a       0x97 ./source/freertos_event.o
+ .debug_macro   0x00013131       0x1c ./source/freertos_event.o
+ .debug_macro   0x0001314d       0x2e ./source/freertos_event.o
+ .debug_macro   0x0001317b       0x10 ./source/freertos_event.o
+ .debug_macro   0x0001318b       0x34 ./source/freertos_event.o
+ .debug_macro   0x000131bf       0x76 ./source/freertos_event.o
+ .debug_macro   0x00013235       0x22 ./source/freertos_event.o
+ .debug_macro   0x00013257       0x11 ./source/freertos_event.o
+ .debug_macro   0x00013268       0xb1 ./source/freertos_event.o
+ .debug_macro   0x00013319       0x61 ./source/freertos_event.o
+ .debug_macro   0x0001337a       0xca ./source/freertos_event.o
+ .debug_macro   0x00013444       0x16 ./source/freertos_event.o
+ .debug_macro   0x0001345a       0x46 ./source/freertos_event.o
+ .debug_macro   0x000134a0       0x11 ./source/semihost_hardfault.o
+ .debug_macro   0x000134b1      0x22f ./drivers/fsl_clock.o
+ .debug_macro   0x000136e0      0x124 ./drivers/fsl_common.o
+ .debug_macro   0x00013804      0x127 ./drivers/fsl_flexcomm.o
+ .debug_macro   0x0001392b       0x10 ./drivers/fsl_flexcomm.o
+ .debug_macro   0x0001393b      0x12e ./drivers/fsl_gint.o
+ .debug_macro   0x00013a69      0x12e ./drivers/fsl_gpio.o
+ .debug_macro   0x00013b97      0x131 ./drivers/fsl_inputmux.o
+ .debug_macro   0x00013cc8      0x12d ./drivers/fsl_pint.o
+ .debug_macro   0x00013df5       0x70 ./drivers/fsl_pint.o
+ .debug_macro   0x00013e65      0x11e ./drivers/fsl_reset.o
+ .debug_macro   0x00013f83       0xdf ./device/system_LPC54608.o
+ .debug_macro   0x00014062      0x250 ./board/board.o
+ .debug_macro   0x000142b2       0x58 ./board/board.o
+ .debug_macro   0x0001430a      0x13e ./board/clock_config.o
+ .debug_macro   0x00014448       0x1c ./board/clock_config.o
+ .debug_macro   0x00014464      0x12a ./board/pin_mux.o
+ .debug_macro   0x0001458e       0xe2 ./board/pin_mux.o
+ .debug_macro   0x00014670       0xdf ./amazon-freertos/freertos_kernel/portable/MemMang/heap_4.o
+ .debug_macro   0x0001474f      0x179 ./amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.o
+ .debug_macro   0x000148c8       0xb8 ./amazon-freertos/freertos_kernel/list.o
+ .debug_macro   0x00014980      0x125 ./amazon-freertos/freertos_kernel/queue.o
+ .debug_macro   0x00014aa5      0x192 ./amazon-freertos/freertos_kernel/tasks.o
+ .debug_macro   0x00014c37       0x10 ./amazon-freertos/freertos_kernel/tasks.o
+ .debug_macro   0x00014c47       0x16 ./amazon-freertos/freertos_kernel/tasks.o
+ .debug_macro   0x00014c5d      0x10d ./amazon-freertos/freertos_kernel/timers.o
 
 .debug_line     0x00000000     0xcb37
  .debug_line    0x00000000      0x5b0 ./utilities/fsl_assert.o
@@ -4472,7 +4465,7 @@ OUTPUT(lpcxpresso54608_freertos_event.axf elf32-littlearm)
  .debug_line    0x0000bd3f      0x9db ./amazon-freertos/freertos_kernel/timers.o
  .debug_line    0x0000c71a      0x41d D:\Gitspace\LPC54608\lpcxpresso54608_freertos_event\libs\libpower_hardabi.a(fsl_power_lib.o)
 
-.debug_str      0x00000000    0x9f10c
+.debug_str      0x00000000    0x9f0c5
  .debug_str     0x00000000    0x8a52a ./utilities/fsl_assert.o
                               0x8a5e4 (size before relaxing)
  .debug_str     0x0008a52a      0x6f9 ./startup/startup_lpc54608.o
@@ -4481,47 +4474,47 @@ OUTPUT(lpcxpresso54608_freertos_event.axf elf32-littlearm)
                                0xa1c4 (size before relaxing)
  .debug_str     0x000906ea     0x207a ./source/cdc_vcom.o
                               0x921fc (size before relaxing)
- .debug_str     0x00092764     0x5e80 ./source/freertos_event.o
-                              0x97f9a (size before relaxing)
- .debug_str     0x000985e4       0x1f ./source/semihost_hardfault.o
+ .debug_str     0x00092764     0x5df4 ./source/freertos_event.o
+                              0x97f07 (size before relaxing)
+ .debug_str     0x00098558       0x1f ./source/semihost_hardfault.o
                                0x2ecb (size before relaxing)
- .debug_str     0x00098603     0x14c5 ./drivers/fsl_clock.o
+ .debug_str     0x00098577     0x14c5 ./drivers/fsl_clock.o
                               0x8aac4 (size before relaxing)
- .debug_str     0x00099ac8      0x16f ./drivers/fsl_common.o
+ .debug_str     0x00099a3c      0x16f ./drivers/fsl_common.o
                               0x87cc7 (size before relaxing)
- .debug_str     0x00099c37      0x81e ./drivers/fsl_flexcomm.o
+ .debug_str     0x00099bab      0x81e ./drivers/fsl_flexcomm.o
                               0x891da (size before relaxing)
- .debug_str     0x0009a455      0x18e ./drivers/fsl_gint.o
+ .debug_str     0x0009a3c9      0x18e ./drivers/fsl_gint.o
                               0x891ba (size before relaxing)
- .debug_str     0x0009a5e3       0x7b ./drivers/fsl_gpio.o
+ .debug_str     0x0009a557       0x7b ./drivers/fsl_gpio.o
                               0x88b90 (size before relaxing)
- .debug_str     0x0009a65e       0x60 ./drivers/fsl_inputmux.o
+ .debug_str     0x0009a5d2       0x60 ./drivers/fsl_inputmux.o
                               0x89221 (size before relaxing)
- .debug_str     0x0009a6be      0x657 ./drivers/fsl_pint.o
+ .debug_str     0x0009a632      0x657 ./drivers/fsl_pint.o
                               0x89a03 (size before relaxing)
- .debug_str     0x0009ad15       0xae ./drivers/fsl_reset.o
+ .debug_str     0x0009ac89       0xae ./drivers/fsl_reset.o
                               0x87c3b (size before relaxing)
- .debug_str     0x0009adc3       0xc3 ./device/system_LPC54608.o
+ .debug_str     0x0009ad37       0xc3 ./device/system_LPC54608.o
                               0x85926 (size before relaxing)
- .debug_str     0x0009ae86      0x7f9 ./board/board.o
+ .debug_str     0x0009adfa      0x7f9 ./board/board.o
                               0x8cd34 (size before relaxing)
- .debug_str     0x0009b67f       0x93 ./board/clock_config.o
+ .debug_str     0x0009b5f3       0x93 ./board/clock_config.o
                               0x8872b (size before relaxing)
- .debug_str     0x0009b712      0x5c4 ./board/pin_mux.o
+ .debug_str     0x0009b686      0x5c4 ./board/pin_mux.o
                               0x8839a (size before relaxing)
- .debug_str     0x0009bcd6      0x2c5 ./amazon-freertos/freertos_kernel/portable/MemMang/heap_4.o
+ .debug_str     0x0009bc4a      0x2c5 ./amazon-freertos/freertos_kernel/portable/MemMang/heap_4.o
                                0x84df (size before relaxing)
- .debug_str     0x0009bf9b      0x859 ./amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.o
+ .debug_str     0x0009bf0f      0x859 ./amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.o
                                0x8a61 (size before relaxing)
- .debug_str     0x0009c7f4      0x13c ./amazon-freertos/freertos_kernel/list.o
+ .debug_str     0x0009c768      0x13c ./amazon-freertos/freertos_kernel/list.o
                                0x7cf1 (size before relaxing)
- .debug_str     0x0009c930      0x868 ./amazon-freertos/freertos_kernel/queue.o
+ .debug_str     0x0009c8a4      0x8a7 ./amazon-freertos/freertos_kernel/queue.o
                                0x9310 (size before relaxing)
- .debug_str     0x0009d198     0x14a4 ./amazon-freertos/freertos_kernel/tasks.o
+ .debug_str     0x0009d14b     0x14a4 ./amazon-freertos/freertos_kernel/tasks.o
                                0xa13c (size before relaxing)
- .debug_str     0x0009e63c      0x5fa ./amazon-freertos/freertos_kernel/timers.o
+ .debug_str     0x0009e5ef      0x5fa ./amazon-freertos/freertos_kernel/timers.o
                                0x9834 (size before relaxing)
- .debug_str     0x0009ec36      0x4d6 D:\Gitspace\LPC54608\lpcxpresso54608_freertos_event\libs\libpower_hardabi.a(fsl_power_lib.o)
+ .debug_str     0x0009ebe9      0x4dc D:\Gitspace\LPC54608\lpcxpresso54608_freertos_event\libs\libpower_hardabi.a(fsl_power_lib.o)
                                 0xc4a (size before relaxing)
 
 .comment        0x00000000       0xf4
@@ -5352,7 +5345,6 @@ pcQueueGetName                                    ./amazon-freertos/freertos_ker
 pcTaskGetName                                     ./amazon-freertos/freertos_kernel/tasks.o
 pcTimerGetName                                    ./amazon-freertos/freertos_kernel/timers.o
 portArch_Name                                     ./amazon-freertos/freertos_kernel/tasks.o
-port_state                                        ./source/freertos_event.o
 pvPortMalloc                                      ./amazon-freertos/freertos_kernel/portable/MemMang/heap_4.o
                                                   ./amazon-freertos/freertos_kernel/timers.o
                                                   ./amazon-freertos/freertos_kernel/tasks.o
@@ -5381,7 +5373,6 @@ strlen                                            d:/nxpide/mcuxpressoide_11.1.0
                                                   ./utilities/fsl_str.o
 ucQueueGetQueueType                               ./amazon-freertos/freertos_kernel/queue.o
 ucStreamBufferGetStreamBufferType                 ./amazon-freertos/freertos_kernel/stream_buffer.o
-ulIdleCycleCount                                  ./source/freertos_event.o
 ulTaskNotifyTake                                  ./amazon-freertos/freertos_kernel/tasks.o
 uxEventGroupGetNumber                             ./amazon-freertos/freertos_kernel/event_groups.o
 uxListRemove                                      ./amazon-freertos/freertos_kernel/list.o
@@ -5511,7 +5502,6 @@ xPortGetFreeHeapSize                              ./amazon-freertos/freertos_ker
 xPortGetMinimumEverFreeHeapSize                   ./amazon-freertos/freertos_kernel/portable/MemMang/heap_4.o
 xPortStartScheduler                               ./amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.o
                                                   ./amazon-freertos/freertos_kernel/tasks.o
-xQueue                                            ./source/freertos_event.o
 xQueueCreateCountingSemaphore                     ./amazon-freertos/freertos_kernel/queue.o
 xQueueCreateMutex                                 ./amazon-freertos/freertos_kernel/queue.o
 xQueueGenericCreate                               ./amazon-freertos/freertos_kernel/queue.o
@@ -5547,7 +5537,6 @@ xStreamBufferSendCompletedFromISR                 ./amazon-freertos/freertos_ker
 xStreamBufferSendFromISR                          ./amazon-freertos/freertos_kernel/stream_buffer.o
 xStreamBufferSetTriggerLevel                      ./amazon-freertos/freertos_kernel/stream_buffer.o
 xStreamBufferSpacesAvailable                      ./amazon-freertos/freertos_kernel/stream_buffer.o
-xTask2Handle                                      ./source/freertos_event.o
 xTaskCheckForTimeOut                              ./amazon-freertos/freertos_kernel/tasks.o
                                                   ./amazon-freertos/freertos_kernel/stream_buffer.o
                                                   ./amazon-freertos/freertos_kernel/queue.o

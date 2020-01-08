@@ -33,6 +33,7 @@
 #include "usbd_core.h"
 #include "pin_mux.h"
 #include <stdbool.h>
+
 /*******************************************************************************
  * Definitions
  ******************************************************************************/
@@ -83,14 +84,6 @@ extern uint8_t USB_FsConfigDescriptor[];
 extern const uint8_t USB_StringDescriptor[];
 extern const uint8_t USB_DeviceQualifier[];
 
-/**
- * @brief Find the address of interface  descriptor for class type
- * @param pDesc     Pointer to configuration descriptor in which the desired class interface
- *                  descriptor to be found
- * @param intfClass Interface class type to be searched
- * @return If found returns the address fo requested interface else returns NULL
- */
-USB_INTERFACE_DESCRIPTOR *find_IntfDesc(const uint8_t *pDesc, uint32_t intfClass);
 /*******************************************************************************
  * Globals Variables
  ******************************************************************************/
@@ -195,7 +188,13 @@ void USB0_IRQHandler(void)
     USBD_API->hw->ISR(g_hUsb);
 }
 
-/* Find the address of interface descriptor for given class type */
+/**
+ * @brief Find the address of interface  descriptor for class type
+ * @param pDesc     Pointer to configuration descriptor in which the desired class interface
+ *                  descriptor to be found
+ * @param intfClass Interface class type to be searched
+ * @return If found returns the address fo requested interface else returns NULL
+ */
 USB_INTERFACE_DESCRIPTOR *find_IntfDesc(const uint8_t *pDesc, uint32_t intfClass)
 {
     USB_COMMON_DESCRIPTOR *pD;
@@ -292,6 +291,7 @@ static void USBTask(void *pvParameters)
     uint32_t prompt = 0;
     while (1)
     {
+        /* Check if Vcom is connected */
         if ((vcom_connected() != 0) && (prompt == 0))
         {
             vcom_write((uint8_t *)"Hello World\r\n", 15);
@@ -300,23 +300,27 @@ static void USBTask(void *pvParameters)
         /* If VCOM port is opened echo whatever we receive back to host */
         if (prompt)
         {
-            if (NULL == bufferCurrent)
+            if (bufferCurrent == NULL)
             {
                 bufferCurrent = GetNode(&bufferPoolList);
             }
             else if (bufferCurrent)
             {
+                /* Virtual com port buffered read routine */
                 bufferCurrent->length = vcom_bread(&bufferCurrent->buffer[0], 64);
                 if (bufferCurrent->length)
                 {
                     AddNodeToEnd(&bufferDataList, bufferCurrent);
                     bufferCurrent = NULL;
                 }
+                /* Disable IRQ Interrupts */
                 __disable_irq();
                 if (bufferDataList)
                 {
-                    vcom_write(&bufferDataList->buffer[0], bufferDataList->length);
+                    /* Virtual com port write routine */
+                vcom_write(&bufferDataList->buffer[0], bufferDataList->length);
                 }
+                /* Enable IRQ Interrupts */
                 __enable_irq();
             }
         }
@@ -344,16 +348,16 @@ void GPIOInit(void)
         0};
 
     /* Init output LED GPIO */
-    GPIO_PortInit(GPIO, LED1_PORT);
-    GPIO_PortInit(GPIO, LED2_PORT);
-    GPIO_PortInit(GPIO, LED3_PORT);
-    //    GPIO_PortInit(GPIO, SW2_PORT);
-    GPIO_PinInit(GPIO, LED1_PORT, LED1_PIN, &led_config);
-    GPIO_PinInit(GPIO, LED2_PORT, LED2_PIN, &led_config);
-    GPIO_PinInit(GPIO, LED3_PORT, LED3_PIN, &led_config);
-    GPIO_PinWrite(GPIO, LED1_PORT, LED1_PIN, 1);
-    GPIO_PinWrite(GPIO, LED2_PORT, LED2_PIN, 1);
-    GPIO_PinWrite(GPIO, LED3_PORT, LED3_PIN, 1);
+                GPIO_PortInit(GPIO, LED1_PORT);
+                GPIO_PortInit(GPIO, LED2_PORT);
+                GPIO_PortInit(GPIO, LED3_PORT);
+                //    GPIO_PortInit(GPIO, SW2_PORT);
+                GPIO_PinInit(GPIO, LED1_PORT, LED1_PIN, &led_config);
+                GPIO_PinInit(GPIO, LED2_PORT, LED2_PIN, &led_config);
+                GPIO_PinInit(GPIO, LED3_PORT, LED3_PIN, &led_config);
+                GPIO_PinWrite(GPIO, LED1_PORT, LED1_PIN, 1);
+                GPIO_PinWrite(GPIO, LED2_PORT, LED2_PIN, 1);
+                GPIO_PinWrite(GPIO, LED3_PORT, LED3_PIN, 1);
 }
 
 void InterruptInit(void)
@@ -386,10 +390,13 @@ void USBInit(void)
 {
     /* Turn on USB Phy */
     POWER_DisablePD(kPDRUNCFG_PD_USB0_PHY);
+    /* Setup peripheral clock dividers */
     CLOCK_SetClkDiv(kCLOCK_DivUsb0Clk, 1, false);
+    /* Configure the clock selection muxes */
     CLOCK_AttachClk(kFRO_HF_to_USB0_CLK);
     /* Enable USB0 host clock */
     CLOCK_EnableClock(kCLOCK_Usbhsl0);
+
     /* According to reference mannual, device mode setting has to be set by access usb host register */
     *((uint32_t *)(USBFSH_BASE + 0x5C)) |= USBFSH_PORTMODE_DEV_ENABLE_MASK;
     /* Disable USB0 host clock */
@@ -402,8 +409,11 @@ void USBInit(void)
 
 static void USB_DeviceApplicationInit(void)
 {
+    /* USB device stack initialization parameter data structure */
     USBD_API_INIT_PARAM_T usb_param;
+    /* USB descriptors data structure */
     USB_CORE_DESCS_T desc;
+    /* Error code returned by Boot ROM drivers/library functions */
     ErrorCode_t ret = LPC_OK;
 
     /* Initialize USBD ROM API pointer */
@@ -413,7 +423,6 @@ static void USB_DeviceApplicationInit(void)
     memset((void *)&usb_param, 0, sizeof(USBD_API_INIT_PARAM_T));
 
     usb_param.usb_reg_base = USB0_BASE;
-
     usb_param.max_num_ep = 3 + 1;
     usb_param.mem_base = (uint32_t)&g_memUsbStack;
     usb_param.mem_size = USB_STACK_MEM_SIZE;
