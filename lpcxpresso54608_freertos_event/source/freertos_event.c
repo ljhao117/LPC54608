@@ -318,7 +318,7 @@ static void USBTask(void *pvParameters)
                 if (bufferDataList)
                 {
                     /* Virtual com port write routine */
-                vcom_write(&bufferDataList->buffer[0], bufferDataList->length);
+                    vcom_write(&bufferDataList->buffer[0], bufferDataList->length);
                 }
                 /* Enable IRQ Interrupts */
                 __enable_irq();
@@ -348,16 +348,16 @@ void GPIOInit(void)
         0};
 
     /* Init output LED GPIO */
-                GPIO_PortInit(GPIO, LED1_PORT);
-                GPIO_PortInit(GPIO, LED2_PORT);
-                GPIO_PortInit(GPIO, LED3_PORT);
-                //    GPIO_PortInit(GPIO, SW2_PORT);
-                GPIO_PinInit(GPIO, LED1_PORT, LED1_PIN, &led_config);
-                GPIO_PinInit(GPIO, LED2_PORT, LED2_PIN, &led_config);
-                GPIO_PinInit(GPIO, LED3_PORT, LED3_PIN, &led_config);
-                GPIO_PinWrite(GPIO, LED1_PORT, LED1_PIN, 1);
-                GPIO_PinWrite(GPIO, LED2_PORT, LED2_PIN, 1);
-                GPIO_PinWrite(GPIO, LED3_PORT, LED3_PIN, 1);
+    GPIO_PortInit(GPIO, LED1_PORT);
+    GPIO_PortInit(GPIO, LED2_PORT);
+    GPIO_PortInit(GPIO, LED3_PORT);
+    //    GPIO_PortInit(GPIO, SW2_PORT);
+    GPIO_PinInit(GPIO, LED1_PORT, LED1_PIN, &led_config);
+    GPIO_PinInit(GPIO, LED2_PORT, LED2_PIN, &led_config);
+    GPIO_PinInit(GPIO, LED3_PORT, LED3_PIN, &led_config);
+    GPIO_PinWrite(GPIO, LED1_PORT, LED1_PIN, 1);
+    GPIO_PinWrite(GPIO, LED2_PORT, LED2_PIN, 1);
+    GPIO_PinWrite(GPIO, LED3_PORT, LED3_PIN, 1);
 }
 
 void InterruptInit(void)
