@@ -6,7 +6,7 @@
  * Generated linker script file for LPC54608J512
  * Created from memory.ldt by FMCreateLinkMemory
  * Using Freemarker v2.3.23
- * MCUXpresso IDE v11.1.0 [Build 3209] [2019-12-12] on 2020-1-8 15:49:55
+ * MCUXpresso IDE v11.1.0 [Build 3209] [2019-12-12] on 2020-1-10 9:14:26
  */
 
 MEMORY
