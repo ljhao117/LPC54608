@@ -302,7 +302,7 @@ static void master_task(void *pvParameters)
     status = I2C_RTOS_Init(&master_rtos_handle, EXAMPLE_I2C_MASTER, &masterConfig, sourceClock);
     if (status != kStatus_Success)
     {
-        PRINTF("I2C master: error during init, %d", status);
+        PRINTF("I2C master: error during init, %d\r\n", status);
     }
 
     g_m_handle = &master_rtos_handle.drv_handle;
@@ -319,7 +319,7 @@ static void master_task(void *pvParameters)
     status = I2C_RTOS_Transfer(&master_rtos_handle, &masterXfer);
     if (status != kStatus_Success)
     {
-        PRINTF("I2C master: error during write transaction, %d", status);
+        PRINTF("I2C master: error during write transaction, %d\r\n", status);
     }
 
     /* Set up master to receive data from slave. */
@@ -340,7 +340,7 @@ static void master_task(void *pvParameters)
     status = I2C_RTOS_Transfer(&master_rtos_handle, &masterXfer);
     if (status != kStatus_Success)
     {
-        PRINTF("I2C master: error during read transaction, %d", status);
+        PRINTF("I2C master: error during read transaction, %d\r\n", status);
     }
 
     /* Transfer completed. Check the data. */
