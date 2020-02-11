@@ -155,8 +155,8 @@ static usb_status_t USB_DeviceClassAllocateHandle(uint8_t controllerId, usb_devi
         if (NULL == s_UsbDeviceCommonClassStruct[count].handle)
         {
             s_UsbDeviceCommonClassStruct[count].controllerId = controllerId;
-            s_UsbDeviceCommonClassStruct[count].setupBuffer  = s_UsbDeviceSetupBuffer[count];
-            *handle                                          = &s_UsbDeviceCommonClassStruct[count];
+            s_UsbDeviceCommonClassStruct[count].setupBuffer = s_UsbDeviceSetupBuffer[count];
+            *handle = &s_UsbDeviceCommonClassStruct[count];
             OSA_EXIT_CRITICAL();
             return kStatus_USB_Success;
         }
@@ -187,8 +187,8 @@ static usb_status_t USB_DeviceClassFreeHandle(uint8_t controllerId)
         if ((NULL != s_UsbDeviceCommonClassStruct[count].handle) &&
             (controllerId == s_UsbDeviceCommonClassStruct[count].controllerId))
         {
-            s_UsbDeviceCommonClassStruct[count].handle       = NULL;
-            s_UsbDeviceCommonClassStruct[count].configList   = (usb_device_class_config_list_struct_t *)NULL;
+            s_UsbDeviceCommonClassStruct[count].handle = NULL;
+            s_UsbDeviceCommonClassStruct[count].configList = (usb_device_class_config_list_struct_t *)NULL;
             s_UsbDeviceCommonClassStruct[count].controllerId = 0U;
             OSA_EXIT_CRITICAL();
             return kStatus_USB_Success;
@@ -315,7 +315,7 @@ usb_status_t USB_DeviceClassEvent(usb_device_handle handle, usb_device_class_eve
     uint8_t mapIndex;
     uint8_t classIndex;
     usb_status_t errorReturn = kStatus_USB_Error;
-    usb_status_t error       = kStatus_USB_Error;
+    usb_status_t error = kStatus_USB_Error;
 
     if (NULL == param)
     {

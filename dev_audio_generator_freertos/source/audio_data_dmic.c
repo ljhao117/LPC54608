@@ -55,10 +55,12 @@ __attribute__((aligned(16U))) dma_descriptor_t g_pingpong_desc[2] = {0};
 __attribute__((aligned(16U))) dma_descriptor_t g_pingpong_desc[2] = {0};
 #endif
 
-USB_DMA_NONINIT_DATA_ALIGN(USB_DATA_ALIGN_SIZE) uint8_t s_wavBuff[AUDIO_ENDPOINT_MAX_PACKET_SIZE];
+USB_DMA_NONINIT_DATA_ALIGN(USB_DATA_ALIGN_SIZE)
+uint8_t s_wavBuff[AUDIO_ENDPOINT_MAX_PACKET_SIZE];
 uint32_t audioPosition = 0U;
 
-USB_DMA_NONINIT_DATA_ALIGN(4)  static uint8_t s_buffer[BUFFER_SIZE * BUFFER_NUM];
+USB_DMA_NONINIT_DATA_ALIGN(4)
+static uint8_t s_buffer[BUFFER_SIZE * BUFFER_NUM];
 static dmic_dma_handle_t s_dmicDmaHandle;
 static dma_handle_t s_dmicRxDmaHandle;
 SDK_ALIGN(dma_descriptor_t s_dmaDescriptorPingpong[2], 16);
@@ -137,8 +139,8 @@ void Board_DMIC_DMA_Init(void)
     /* 初始化结构体 */
     memset(&dmic_channel_cfg, 0U, sizeof(dmic_channel_config_t));
 
-    dmic_channel_cfg.divhfclk = kDMIC_PdmDiv1;
-    dmic_channel_cfg.osr = DEMO_DMIC_OSR;
+    dmic_channel_cfg.divhfclk = kDMIC_PdmDiv1; //DMIC Clock pre-divider values
+    dmic_channel_cfg.osr = DEMO_DMIC_OSR;      //oversampling rate（过采样率）
     dmic_channel_cfg.gainshft = 3U;
     dmic_channel_cfg.preac2coef = kDMIC_CompValueZero;
     dmic_channel_cfg.preac4coef = kDMIC_CompValueZero;
@@ -146,19 +148,21 @@ void Board_DMIC_DMA_Init(void)
     dmic_channel_cfg.post_dc_gain_reduce = 1U;
     dmic_channel_cfg.saturate16bit = 1U;
     dmic_channel_cfg.sample_rate = kDMIC_PhyFullSpeed;
-    DMIC_Init(DMIC0);
+    DMIC_Init(DMIC0); //Turns DMIC Clock on
 #if !(defined(FSL_FEATURE_DMIC_HAS_NO_IOCFG) && FSL_FEATURE_DMIC_HAS_NO_IOCFG)
-    DMIC_SetIOCFG(DMIC0, kDMIC_PdmDual);
+    DMIC_SetIOCFG(DMIC0, kDMIC_PdmDual); //Stereo PDM select
 #endif
-    DMIC_Use2fs(DMIC0, true);
-    DMIC_EnableChannelDma(DMIC0, DEMO_DMIC_CHANNEL, true);
-    DMIC_ConfigChannel(DMIC0, DEMO_DMIC_CHANNEL, kDMIC_Left, &dmic_channel_cfg);
+    DMIC_Use2fs(DMIC0, true);                                                    //Configure Clock scaling
+    DMIC_EnableChannelDma(DMIC0, DEMO_DMIC_CHANNEL, true);                       //Enable a particualr channel dma request
+    DMIC_ConfigChannel(DMIC0, DEMO_DMIC_CHANNEL, kDMIC_Left, &dmic_channel_cfg); //Configure DMIC channel
 
     /* FIFO disabled */
-    DMIC_FifoChannel(DMIC0, DEMO_DMIC_CHANNEL, FIFO_DEPTH, true, true);
-    DMIC_EnableChannnel(DMIC0, DEMO_DMIC_CHANNEL_ENABLE);
+    DMIC_FifoChannel(DMIC0, DEMO_DMIC_CHANNEL, FIFO_DEPTH, true, true); //Configure fifo settings for DMIC channel
+    DMIC_EnableChannnel(DMIC0, DEMO_DMIC_CHANNEL_ENABLE);               //Enable a particualr channel
 
+    /*Initializes the DMIC handle which is used in transactional functions*/
     DMIC_TransferCreateHandleDMA(DMIC0, &s_dmicDmaHandle, dmic_Callback, NULL, &s_dmicRxDmaHandle);
-    DMIC_InstallDMADescriptorMemory(&s_dmicDmaHandle, s_dmaDescriptorPingpong, 2U);
-    DMIC_TransferReceiveDMA(DMIC0, &s_dmicDmaHandle, s_receiveXfer, DEMO_DMIC_CHANNEL);
+
+    DMIC_InstallDMADescriptorMemory(&s_dmicDmaHandle, s_dmaDescriptorPingpong, 2U);     //Install DMA descriptor memory
+    DMIC_TransferReceiveDMA(DMIC0, &s_dmicDmaHandle, s_receiveXfer, DEMO_DMIC_CHANNEL); //Receives data using DMA
 }

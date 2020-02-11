@@ -775,6 +775,7 @@ void main(void)
 #endif
 
 #if defined(AUDIO_DATA_SOURCE_DMIC) && (AUDIO_DATA_SOURCE_DMIC > 0U)
+    //initialization digital microphone
     Board_DMIC_DMA_Init();
 #endif
 
