@@ -1,0 +1,1181 @@
+Dependencies for Project 'dev_audio_generator_freertos', Target 'dev_audio_generator_freertos debug': (DO NOT MODIFY !)
+CompilerVersion: 6130001::V6.13.1::.\ARMCLANG
+F (amazon-freertos/freertos_kernel/event_groups.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/event_groups.o -MD)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (amazon-freertos\freertos_kernel\include\FreeRTOS.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stddef.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (source\FreeRTOSConfig.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\projdefs.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\portable.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\deprecated_definitions.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\mpu_wrappers.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\task.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\list.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\timers.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\event_groups.h)(0x5E42402C)
+F (amazon-freertos/freertos_kernel/list.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/list.o -MD)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (amazon-freertos\freertos_kernel\include\FreeRTOS.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stddef.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (source\FreeRTOSConfig.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\projdefs.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\portable.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\deprecated_definitions.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\mpu_wrappers.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\list.h)(0x5E42402C)
+F (amazon-freertos/freertos_kernel/queue.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/queue.o -MD)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (amazon-freertos\freertos_kernel\include\FreeRTOS.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stddef.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (source\FreeRTOSConfig.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\projdefs.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\portable.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\deprecated_definitions.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\mpu_wrappers.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\task.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\list.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\queue.h)(0x5E42402C)
+F (amazon-freertos/freertos_kernel/stream_buffer.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/stream_buffer.o -MD)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (amazon-freertos\freertos_kernel\include\FreeRTOS.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stddef.h)(0x5DB34DA0)
+I (source\FreeRTOSConfig.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\projdefs.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\portable.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\deprecated_definitions.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\mpu_wrappers.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\task.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\list.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\stream_buffer.h)(0x5E42402C)
+F (amazon-freertos/freertos_kernel/tasks.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/tasks.o -MD)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (amazon-freertos\freertos_kernel\include\FreeRTOS.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stddef.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (source\FreeRTOSConfig.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\projdefs.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\portable.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\deprecated_definitions.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\mpu_wrappers.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\task.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\list.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\timers.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\stack_macros.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdio.h)(0x5DB34DA0)
+I (amazon-freertos\freertos_kernel\include\freertos_tasks_c_additions.h)(0x5E42402C)
+F (amazon-freertos/freertos_kernel/timers.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/timers.o -MD)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (amazon-freertos\freertos_kernel\include\FreeRTOS.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stddef.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (source\FreeRTOSConfig.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\projdefs.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\portable.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\deprecated_definitions.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\mpu_wrappers.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\task.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\list.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\queue.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\timers.h)(0x5E42402C)
+F (amazon-freertos/freertos_kernel/include/atomic.h)(0x5E42402C)()
+F (amazon-freertos/freertos_kernel/include/deprecated_definitions.h)(0x5E42402C)()
+F (amazon-freertos/freertos_kernel/include/event_groups.h)(0x5E42402C)()
+F (amazon-freertos/freertos_kernel/include/FreeRTOS.h)(0x5E42402C)()
+F (amazon-freertos/freertos_kernel/include/freertos_tasks_c_additions.h)(0x5E42402C)()
+F (amazon-freertos/freertos_kernel/include/list.h)(0x5E42402C)()
+F (amazon-freertos/freertos_kernel/include/message_buffer.h)(0x5E42402C)()
+F (amazon-freertos/freertos_kernel/include/mpu_prototypes.h)(0x5E42402C)()
+F (amazon-freertos/freertos_kernel/include/mpu_wrappers.h)(0x5E42402C)()
+F (amazon-freertos/freertos_kernel/include/portable.h)(0x5E42402C)()
+F (amazon-freertos/freertos_kernel/include/projdefs.h)(0x5E42402C)()
+F (amazon-freertos/freertos_kernel/include/queue.h)(0x5E42402C)()
+F (amazon-freertos/freertos_kernel/include/semphr.h)(0x5E42402C)()
+F (amazon-freertos/freertos_kernel/include/stack_macros.h)(0x5E42402C)()
+F (amazon-freertos/freertos_kernel/include/stream_buffer.h)(0x5E42402C)()
+F (amazon-freertos/freertos_kernel/include/task.h)(0x5E42402C)()
+F (amazon-freertos/freertos_kernel/include/timers.h)(0x5E42402C)()
+F (amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/port.o -MD)
+I (amazon-freertos\freertos_kernel\include\FreeRTOS.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stddef.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (source\FreeRTOSConfig.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\projdefs.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\portable.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\deprecated_definitions.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\mpu_wrappers.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\task.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\list.h)(0x5E42402C)
+F (amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F/portmacro.h)(0x5E42402C)()
+F (amazon-freertos/freertos_kernel/portable/MemMang/heap_4.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/heap_4.o -MD)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (amazon-freertos\freertos_kernel\include\FreeRTOS.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stddef.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (source\FreeRTOSConfig.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\projdefs.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\portable.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\deprecated_definitions.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\mpu_wrappers.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\task.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\list.h)(0x5E42402C)
+F (amazon-freertos/freertos_kernel/portable/readme.txt)(0x5E42402C)()
+F (board/board.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/board.o -MD)
+I (board\board.h)(0x5E42402C)
+I (board\clock_config.h)(0x5E42402C)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (drivers\fsl_gpio.h)(0x5E42402C)
+I (utilities\fsl_debug_console.h)(0x5E42402C)
+I (component\serial_manager\serial_manager.h)(0x5E42402C)
+I (component\serial_manager\serial_port_uart.h)(0x5E42402C)
+I (component\uart\uart.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\FreeRTOS.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stddef.h)(0x5DB34DA0)
+I (source\FreeRTOSConfig.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\projdefs.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\portable.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\deprecated_definitions.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\mpu_wrappers.h)(0x5E42402C)
+I (drivers\fsl_emc.h)(0x5E42402C)
+F (board/board.h)(0x5E42402C)()
+F (board/clock_config.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/clock_config.o -MD)
+I (drivers\fsl_power.h)(0x5E42402C)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (board\clock_config.h)(0x5E42402C)
+F (board/clock_config.h)(0x5E42402C)()
+F (board/pin_mux.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/pin_mux.o -MD)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (drivers\fsl_iocon.h)(0x5E42402C)
+I (board\pin_mux.h)(0x5E42402C)
+F (board/pin_mux.h)(0x5E42402C)()
+F (CMSIS/arm_common_tables.h)(0x5E42402C)()
+F (CMSIS/arm_const_structs.h)(0x5E42402C)()
+F (CMSIS/arm_math.h)(0x5E42402C)()
+F (CMSIS/cmsis_armcc.h)(0x5E42402C)()
+F (CMSIS/cmsis_armclang.h)(0x5E42402C)()
+F (CMSIS/cmsis_armclang_ltm.h)(0x5E42402C)()
+F (CMSIS/cmsis_compiler.h)(0x5E42402C)()
+F (CMSIS/cmsis_gcc.h)(0x5E42402C)()
+F (CMSIS/cmsis_iccarm.h)(0x5E42402C)()
+F (CMSIS/cmsis_version.h)(0x5E42402C)()
+F (CMSIS/core_armv81mml.h)(0x5E42402C)()
+F (CMSIS/core_armv8mbl.h)(0x5E42402C)()
+F (CMSIS/core_armv8mml.h)(0x5E42402C)()
+F (CMSIS/core_cm4.h)(0x5E42402C)()
+F (CMSIS/mpu_armv7.h)(0x5E42402C)()
+F (CMSIS/mpu_armv8.h)(0x5E42402C)()
+F (component/lists/generic_list.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/generic_list.o -MD)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (component\lists\generic_list.h)(0x5E42402C)
+F (component/lists/generic_list.h)(0x5E42402C)()
+F (component/osa/fsl_os_abstraction.h)(0x5E42402C)()
+F (component/osa/fsl_os_abstraction_config.h)(0x5E42402C)()
+F (component/osa/fsl_os_abstraction_free_rtos.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/fsl_os_abstraction_free_rtos.o -MD)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction_config.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction_free_rtos.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\FreeRTOS.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stddef.h)(0x5DB34DA0)
+I (source\FreeRTOSConfig.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\projdefs.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\portable.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\deprecated_definitions.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\mpu_wrappers.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\semphr.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\queue.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\task.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\list.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\event_groups.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\timers.h)(0x5E42402C)
+I (component\lists\generic_list.h)(0x5E42402C)
+F (component/osa/fsl_os_abstraction_free_rtos.h)(0x5E42402C)()
+F (component/serial_manager/serial_manager.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/serial_manager.o -MD)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (component\serial_manager\serial_manager.h)(0x5E42402C)
+I (component\serial_manager\serial_port_uart.h)(0x5E42402C)
+I (component\uart\uart.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\FreeRTOS.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stddef.h)(0x5DB34DA0)
+I (source\FreeRTOSConfig.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\projdefs.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\portable.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\deprecated_definitions.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\mpu_wrappers.h)(0x5E42402C)
+I (component\serial_manager\serial_port_internal.h)(0x5E42402C)
+F (component/serial_manager/serial_manager.h)(0x5E42402C)()
+F (component/serial_manager/serial_port_internal.h)(0x5E42402C)()
+F (component/serial_manager/serial_port_uart.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/serial_port_uart.o -MD)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (component\serial_manager\serial_manager.h)(0x5E42402C)
+I (component\serial_manager\serial_port_uart.h)(0x5E42402C)
+I (component\uart\uart.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\FreeRTOS.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stddef.h)(0x5DB34DA0)
+I (source\FreeRTOSConfig.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\projdefs.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\portable.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\deprecated_definitions.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\mpu_wrappers.h)(0x5E42402C)
+I (component\serial_manager\serial_port_internal.h)(0x5E42402C)
+F (component/serial_manager/serial_port_uart.h)(0x5E42402C)()
+F (component/uart/uart.h)(0x5E42402C)()
+F (component/uart/usart_adapter.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/usart_adapter.o -MD)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (drivers\fsl_usart.h)(0x5E42402C)
+I (drivers\fsl_flexcomm.h)(0x5E42402C)
+I (component\uart\uart.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\FreeRTOS.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stddef.h)(0x5DB34DA0)
+I (source\FreeRTOSConfig.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\projdefs.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\portable.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\deprecated_definitions.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\mpu_wrappers.h)(0x5E42402C)
+F (device/fsl_device_registers.h)(0x5E42402C)()
+F (device/LPC54608.h)(0x5E42402C)()
+F (device/LPC54608_features.h)(0x5E42402C)()
+F (device/system_LPC54608.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/system_lpc54608.o -MD)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+F (device/system_LPC54608.h)(0x5E42402C)()
+F (doc/readme.txt)(0x5E42402C)()
+F (drivers/fsl_clock.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/fsl_clock.o -MD)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (drivers\fsl_power.h)(0x5E42402C)
+F (drivers/fsl_clock.h)(0x5E42402C)()
+F (drivers/fsl_common.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/fsl_common.o -MD)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+F (drivers/fsl_common.h)(0x5E42402C)()
+F (drivers/fsl_dma.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/fsl_dma.o -MD)
+I (drivers\fsl_dma.h)(0x5E42402C)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+F (drivers/fsl_dma.h)(0x5E42402C)()
+F (drivers/fsl_dmic.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/fsl_dmic.o -MD)
+I (drivers\fsl_dmic.h)(0x5E42402C)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+F (drivers/fsl_dmic.h)(0x5E42402C)()
+F (drivers/fsl_dmic_dma.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/fsl_dmic_dma.o -MD)
+I (drivers\fsl_dmic_dma.h)(0x5E42402C)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (drivers\fsl_dma.h)(0x5E42402C)
+I (drivers\fsl_dmic.h)(0x5E42402C)
+F (drivers/fsl_dmic_dma.h)(0x5E42402C)()
+F (drivers/fsl_emc.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/fsl_emc.o -MD)
+I (drivers\fsl_emc.h)(0x5E42402C)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+F (drivers/fsl_emc.h)(0x5E42402C)()
+F (drivers/fsl_flexcomm.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/fsl_flexcomm.o -MD)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (drivers\fsl_flexcomm.h)(0x5E42402C)
+F (drivers/fsl_flexcomm.h)(0x5E42402C)()
+F (drivers/fsl_gpio.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/fsl_gpio.o -MD)
+I (drivers\fsl_gpio.h)(0x5E42402C)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+F (drivers/fsl_gpio.h)(0x5E42402C)()
+F (drivers/fsl_iocon.h)(0x5E42402C)()
+F (drivers/fsl_power.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/fsl_power.o -MD)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (drivers\fsl_power.h)(0x5E42402C)
+F (drivers/fsl_power.h)(0x5E42402C)()
+F (drivers/fsl_reset.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/fsl_reset.o -MD)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+F (drivers/fsl_reset.h)(0x5E42402C)()
+F (drivers/fsl_sctimer.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/fsl_sctimer.o -MD)
+I (drivers\fsl_sctimer.h)(0x5E42402C)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+F (drivers/fsl_sctimer.h)(0x5E42402C)()
+F (drivers/fsl_usart.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/fsl_usart.o -MD)
+I (drivers\fsl_usart.h)(0x5E42402C)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (drivers\fsl_flexcomm.h)(0x5E42402C)
+F (drivers/fsl_usart.h)(0x5E42402C)()
+F (lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos/readme.pdf)(0x5E42402C)()
+F (source/audio_data_dmic.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/audio_data_dmic.o -MD)
+I (drivers\fsl_dmic.h)(0x5E42402C)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (drivers\fsl_dma.h)(0x5E42402C)
+I (drivers\fsl_dmic_dma.h)(0x5E42402C)
+I (source\usb_device_config.h)(0x5E42402C)
+I (usb\include\usb.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdio.h)(0x5DB34DA0)
+I (component\osa\fsl_os_abstraction.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction_config.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction_free_rtos.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\FreeRTOS.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stddef.h)(0x5DB34DA0)
+I (source\FreeRTOSConfig.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\projdefs.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\portable.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\deprecated_definitions.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\mpu_wrappers.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\semphr.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\queue.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\task.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\list.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\event_groups.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\timers.h)(0x5E42402C)
+I (usb\include\usb_misc.h)(0x5E42402C)
+I (usb\include\usb_spec.h)(0x5E42402C)
+I (usb\device\include\usb_device.h)(0x5E42402C)
+I (usb\device\class\usb_device_class.h)(0x5E42402C)
+I (source\usb_audio_config.h)(0x5E42402C)
+I (source\usb_device_descriptor.h)(0x5E42402C)
+I (source\audio_data_dmic.h)(0x5E42402C)
+F (source/audio_data_dmic.h)(0x5E42402C)()
+F (source/audio_generator.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/audio_generator.o -MD)
+I (source\usb_device_config.h)(0x5E42402C)
+I (usb\include\usb.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdio.h)(0x5DB34DA0)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction_config.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction_free_rtos.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\FreeRTOS.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stddef.h)(0x5DB34DA0)
+I (source\FreeRTOSConfig.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\projdefs.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\portable.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\deprecated_definitions.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\mpu_wrappers.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\semphr.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\queue.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\task.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\list.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\event_groups.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\timers.h)(0x5E42402C)
+I (usb\include\usb_misc.h)(0x5E42402C)
+I (usb\include\usb_spec.h)(0x5E42402C)
+I (usb\device\include\usb_device.h)(0x5E42402C)
+I (usb\device\class\usb_device_class.h)(0x5E42402C)
+I (usb\device\class\audio\usb_device_audio.h)(0x5E42402C)
+I (source\usb_audio_config.h)(0x5E42402C)
+I (usb\device\source\usb_device_ch9.h)(0x5E42402C)
+I (source\usb_device_descriptor.h)(0x5E42402C)
+I (source\audio_generator.h)(0x5E42402C)
+I (board\clock_config.h)(0x5E42402C)
+I (board\board.h)(0x5E42402C)
+I (drivers\fsl_gpio.h)(0x5E42402C)
+I (utilities\fsl_debug_console.h)(0x5E42402C)
+I (component\serial_manager\serial_manager.h)(0x5E42402C)
+I (component\serial_manager\serial_port_uart.h)(0x5E42402C)
+I (component\uart\uart.h)(0x5E42402C)
+I (board\pin_mux.h)(0x5E42402C)
+I (drivers\fsl_power.h)(0x5E42402C)
+F (source/audio_generator.h)(0x5E42402C)()
+F (source/FreeRTOSConfig.h)(0x5E42402C)()
+F (source/usb_audio_config.h)(0x5E42402C)()
+F (source/usb_device_config.h)(0x5E42402C)()
+F (source/usb_device_descriptor.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/usb_device_descriptor.o -MD)
+I (source\usb_device_config.h)(0x5E42402C)
+I (usb\include\usb.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdio.h)(0x5DB34DA0)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction_config.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction_free_rtos.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\FreeRTOS.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stddef.h)(0x5DB34DA0)
+I (source\FreeRTOSConfig.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\projdefs.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\portable.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\deprecated_definitions.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\mpu_wrappers.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\semphr.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\queue.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\task.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\list.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\event_groups.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\timers.h)(0x5E42402C)
+I (usb\include\usb_misc.h)(0x5E42402C)
+I (usb\include\usb_spec.h)(0x5E42402C)
+I (usb\device\include\usb_device.h)(0x5E42402C)
+I (usb\device\class\usb_device_class.h)(0x5E42402C)
+I (usb\device\class\audio\usb_device_audio.h)(0x5E42402C)
+I (source\usb_audio_config.h)(0x5E42402C)
+I (source\usb_device_descriptor.h)(0x5E42402C)
+I (source\audio_generator.h)(0x5E42402C)
+F (source/usb_device_descriptor.h)(0x5E42402C)()
+F (startup/startup_LPC54608.s)(0x5E42402C)(-x assembler-with-cpp --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-gdwarf-3 -D__MICROLIB -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -DDEBUG -D__CC_ARM -DKEIL -DDEBUG-o debug/startup_lpc54608.o)
+F (usb/ChangeLogKSDK.txt)(0x5E42402C)()
+F (usb/device/class/audio/usb_device_audio.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/usb_device_audio.o -MD)
+I (source\usb_device_config.h)(0x5E42402C)
+I (usb\include\usb.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdio.h)(0x5DB34DA0)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction_config.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction_free_rtos.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\FreeRTOS.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stddef.h)(0x5DB34DA0)
+I (source\FreeRTOSConfig.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\projdefs.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\portable.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\deprecated_definitions.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\mpu_wrappers.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\semphr.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\queue.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\task.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\list.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\event_groups.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\timers.h)(0x5E42402C)
+I (usb\include\usb_misc.h)(0x5E42402C)
+I (usb\include\usb_spec.h)(0x5E42402C)
+I (usb\device\include\usb_device.h)(0x5E42402C)
+I (usb\device\class\usb_device_class.h)(0x5E42402C)
+I (usb\device\class\audio\usb_device_audio.h)(0x5E42402C)
+F (usb/device/class/audio/usb_device_audio.h)(0x5E42402C)()
+F (usb/device/class/usb_device_class.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/usb_device_class.o -MD)
+I (source\usb_device_config.h)(0x5E42402C)
+I (usb\include\usb.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdio.h)(0x5DB34DA0)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction_config.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction_free_rtos.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\FreeRTOS.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stddef.h)(0x5DB34DA0)
+I (source\FreeRTOSConfig.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\projdefs.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\portable.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\deprecated_definitions.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\mpu_wrappers.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\semphr.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\queue.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\task.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\list.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\event_groups.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\timers.h)(0x5E42402C)
+I (usb\include\usb_misc.h)(0x5E42402C)
+I (usb\include\usb_spec.h)(0x5E42402C)
+I (usb\device\include\usb_device.h)(0x5E42402C)
+I (usb\device\source\usb_device_ch9.h)(0x5E42402C)
+I (usb\device\class\usb_device_class.h)(0x5E42402C)
+I (usb\device\class\audio\usb_device_audio.h)(0x5E42402C)
+F (usb/device/class/usb_device_class.h)(0x5E42402C)()
+F (usb/device/include/usb_device.h)(0x5E42402C)()
+F (usb/device/source/lpcip3511/usb_device_lpcip3511.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/usb_device_lpcip3511.o -MD)
+I (source\usb_device_config.h)(0x5E42402C)
+I (usb\include\usb.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdio.h)(0x5DB34DA0)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction_config.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction_free_rtos.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\FreeRTOS.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stddef.h)(0x5DB34DA0)
+I (source\FreeRTOSConfig.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\projdefs.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\portable.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\deprecated_definitions.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\mpu_wrappers.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\semphr.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\queue.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\task.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\list.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\event_groups.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\timers.h)(0x5E42402C)
+I (usb\include\usb_misc.h)(0x5E42402C)
+I (usb\include\usb_spec.h)(0x5E42402C)
+I (usb\device\include\usb_device.h)(0x5E42402C)
+I (usb\device\source\usb_device_dci.h)(0x5E42402C)
+I (usb\device\source\lpcip3511\usb_device_lpcip3511.h)(0x5E42402C)
+F (usb/device/source/lpcip3511/usb_device_lpcip3511.h)(0x5E42402C)()
+F (usb/device/source/usb_device_ch9.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/usb_device_ch9.o -MD)
+I (source\usb_device_config.h)(0x5E42402C)
+I (usb\include\usb.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdio.h)(0x5DB34DA0)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction_config.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction_free_rtos.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\FreeRTOS.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stddef.h)(0x5DB34DA0)
+I (source\FreeRTOSConfig.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\projdefs.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\portable.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\deprecated_definitions.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\mpu_wrappers.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\semphr.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\queue.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\task.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\list.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\event_groups.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\timers.h)(0x5E42402C)
+I (usb\include\usb_misc.h)(0x5E42402C)
+I (usb\include\usb_spec.h)(0x5E42402C)
+I (usb\device\include\usb_device.h)(0x5E42402C)
+I (usb\device\source\usb_device_dci.h)(0x5E42402C)
+I (usb\device\class\usb_device_class.h)(0x5E42402C)
+I (usb\device\source\usb_device_ch9.h)(0x5E42402C)
+F (usb/device/source/usb_device_ch9.h)(0x5E42402C)()
+F (usb/device/source/usb_device_dci.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/usb_device_dci.o -MD)
+I (source\usb_device_config.h)(0x5E42402C)
+I (usb\include\usb.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdio.h)(0x5DB34DA0)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction_config.h)(0x5E42402C)
+I (component\osa\fsl_os_abstraction_free_rtos.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\FreeRTOS.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stddef.h)(0x5DB34DA0)
+I (source\FreeRTOSConfig.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\projdefs.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\portable.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\deprecated_definitions.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\mpu_wrappers.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\semphr.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\queue.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\task.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\list.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\event_groups.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\timers.h)(0x5E42402C)
+I (usb\include\usb_misc.h)(0x5E42402C)
+I (usb\include\usb_spec.h)(0x5E42402C)
+I (usb\device\include\usb_device.h)(0x5E42402C)
+I (usb\device\source\usb_device_dci.h)(0x5E42402C)
+I (usb\device\source\lpcip3511\usb_device_lpcip3511.h)(0x5E42402C)
+I (usb\device\source\usb_device_ch9.h)(0x5E42402C)
+F (usb/device/source/usb_device_dci.h)(0x5E42402C)()
+F (usb/include/usb.h)(0x5E42402C)()
+F (usb/include/usb_misc.h)(0x5E42402C)()
+F (usb/include/usb_spec.h)(0x5E42402C)()
+F (utilities/fsl_assert.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/fsl_assert.o -MD)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (utilities\fsl_debug_console.h)(0x5E42402C)
+I (component\serial_manager\serial_manager.h)(0x5E42402C)
+I (component\serial_manager\serial_port_uart.h)(0x5E42402C)
+I (component\uart\uart.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\FreeRTOS.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stddef.h)(0x5DB34DA0)
+I (source\FreeRTOSConfig.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\projdefs.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\portable.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\deprecated_definitions.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\mpu_wrappers.h)(0x5E42402C)
+F (utilities/fsl_debug_console.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/fsl_debug_console.o -MD)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdarg.h)(0x5DB34D9E)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdio.h)(0x5DB34DA0)
+I (amazon-freertos\freertos_kernel\include\FreeRTOS.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\stddef.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (source\FreeRTOSConfig.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\projdefs.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\portable.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\deprecated_definitions.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\mpu_wrappers.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\semphr.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\queue.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\task.h)(0x5E42402C)
+I (amazon-freertos\freertos_kernel\include\list.h)(0x5E42402C)
+I (utilities\fsl_debug_console_conf.h)(0x5E42402C)
+I (utilities\fsl_str.h)(0x5E42402C)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (component\serial_manager\serial_manager.h)(0x5E42402C)
+I (component\serial_manager\serial_port_uart.h)(0x5E42402C)
+I (component\uart\uart.h)(0x5E42402C)
+I (utilities\fsl_debug_console.h)(0x5E42402C)
+F (utilities/fsl_debug_console.h)(0x5E42402C)()
+F (utilities/fsl_debug_console_conf.h)(0x5E42402C)()
+F (utilities/fsl_str.c)(0x5E42402C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I board -I source -I CMSIS -I LPC54608/arm -I amazon-freertos/freertos_kernel/include -I amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F -I component/lists -I component/osa -I component/serial_manager -I component/uart -I device -I doc -I drivers -I lpcxpresso54608/usb_examples/usb_device_audio_generator/freertos -I startup -I usb/device/class -I usb/device/class/audio -I usb/device/include -I usb/device/source -I usb/device/source/lpcip3511 -I usb/include -I utilities -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb-I./RTE/_dev_audio_generator_freertos_debug-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0-ID:/Keilv5/ARM/CMSIS/Include-ID:/Keilv5/ARM/PACK/NXP/LPC54608_DFP/12.1.0/LPCOpen/lpc5460x/chip_5460x/inc-D__UVISION_VERSION="529" -DCPU_LPC54608J512ET180 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DFSL_OSA_BM_TASK_ENABLE="0" -DFSL_OSA_BM_TIMER_CONFIG="0" -DSERIAL_PORT_TYPE_UART="1"-o debug/fsl_str.o -MD)
+I (D:\Keilv5\ARM\ARMCLANG\include\math.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdarg.h)(0x5DB34D9E)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdlib.h)(0x5DB34DA0)
+I (utilities\fsl_str.h)(0x5E42402C)
+I (drivers\fsl_common.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\assert.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdbool.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\stdint.h)(0x5DB34DA0)
+I (D:\Keilv5\ARM\ARMCLANG\include\string.h)(0x5DB34DA0)
+I (device\fsl_device_registers.h)(0x5E42402C)
+I (device\LPC54608.h)(0x5E42402C)
+I (CMSIS\core_cm4.h)(0x5E42402C)
+I (CMSIS\cmsis_version.h)(0x5E42402C)
+I (CMSIS\cmsis_compiler.h)(0x5E42402C)
+I (CMSIS\cmsis_armclang.h)(0x5E42402C)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\Keilv5\ARM\ARMCLANG\include\arm_acle.h)(0x5D8A1E5E)
+I (CMSIS\mpu_armv7.h)(0x5E42402C)
+I (device\system_LPC54608.h)(0x5E42402C)
+I (device\LPC54608_features.h)(0x5E42402C)
+I (drivers\fsl_clock.h)(0x5E42402C)
+I (drivers\fsl_reset.h)(0x5E42402C)
+I (utilities\fsl_debug_console_conf.h)(0x5E42402C)
+F (utilities/fsl_str.h)(0x5E42402C)()
