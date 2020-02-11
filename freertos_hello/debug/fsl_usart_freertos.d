@@ -1,0 +1,36 @@
+debug/fsl_usart_freertos.o: \
+  ..\..\..\..\..\devices\LPC54608\drivers\fsl_usart_freertos.c \
+  ..\..\..\..\..\devices\LPC54608\drivers\fsl_usart_freertos.h \
+  ..\..\..\..\..\devices\LPC54608\drivers\fsl_usart.h \
+  ..\..\..\..\..\devices\LPC54608\drivers\fsl_common.h \
+  D:\Keilv5\ARM\ARMCLANG\Bin\..\include\assert.h \
+  D:\Keilv5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  D:\Keilv5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\Keilv5\ARM\ARMCLANG\Bin\..\include\string.h \
+  D:\Keilv5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  ..\..\..\..\..\devices\LPC54608\fsl_device_registers.h \
+  ..\..\..\..\..\devices\LPC54608\LPC54608.h \
+  ..\..\..\..\..\CMSIS\Include\core_cm4.h \
+  ..\..\..\..\..\CMSIS\Include\cmsis_version.h \
+  ..\..\..\..\..\CMSIS\Include\cmsis_compiler.h \
+  ..\..\..\..\..\CMSIS\Include\cmsis_armclang.h \
+  D:\Keilv5\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
+  D:\Keilv5\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
+  ..\..\..\..\..\CMSIS\Include\mpu_armv7.h \
+  ..\..\..\..\..\devices\LPC54608\system_LPC54608.h \
+  ..\..\..\..\..\devices\LPC54608\LPC54608_features.h \
+  ..\..\..\..\..\devices\LPC54608\drivers\fsl_clock.h \
+  ..\..\..\..\..\devices\LPC54608\drivers\fsl_reset.h \
+  ..\..\..\..\..\rtos\amazon-freertos\freertos_kernel\include\FreeRTOS.h \
+  D:\Keilv5\ARM\ARMCLANG\Bin\..\include\stddef.h ..\FreeRTOSConfig.h \
+  ..\..\..\..\..\rtos\amazon-freertos\freertos_kernel\include\projdefs.h \
+  ..\..\..\..\..\rtos\amazon-freertos\freertos_kernel\include\portable.h \
+  ..\..\..\..\..\rtos\amazon-freertos\freertos_kernel\include\deprecated_definitions.h \
+  ..\..\..\..\..\rtos\amazon-freertos\freertos_kernel\portable\GCC\ARM_CM4F\portmacro.h \
+  ..\..\..\..\..\rtos\amazon-freertos\freertos_kernel\include\mpu_wrappers.h \
+  ..\..\..\..\..\rtos\amazon-freertos\freertos_kernel\include\event_groups.h \
+  ..\..\..\..\..\rtos\amazon-freertos\freertos_kernel\include\timers.h \
+  ..\..\..\..\..\rtos\amazon-freertos\freertos_kernel\include\task.h \
+  ..\..\..\..\..\rtos\amazon-freertos\freertos_kernel\include\list.h \
+  ..\..\..\..\..\rtos\amazon-freertos\freertos_kernel\include\semphr.h \
+  ..\..\..\..\..\rtos\amazon-freertos\freertos_kernel\include\queue.h
