@@ -375,7 +375,7 @@ uint8_t g_UsbDeviceString1[] = {
     'R',           0x00U,
     'S',           0x00U,
 };
-
+/* Device name maybe */
 USB_DMA_INIT_DATA_ALIGN(USB_DATA_ALIGN_SIZE)
 uint8_t g_UsbDeviceString2[] = {
     2U + 2U * 14U, USB_DESCRIPTOR_TYPE_STRING,
